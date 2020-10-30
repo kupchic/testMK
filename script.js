@@ -21,12 +21,26 @@ $('.partners-slider').slick({
   // adaptiveHeight: true,
   speed: 400,
   responsive: [{
-    breakpoint: 750,
+    breakpoint: 770,
     settings: {
+      adaptiveHeight: true,
       slidesToShow: 1,
       slidesToScroll: 1,
+      // 
+
     }
-  }]
+  },
+    {
+      breakpoint: 400,
+      settings: {
+        adaptiveHeight: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+        prevArrow: false,
+        nextArrow: false,
+      },
+    }
+  ]
 });
 
 const sideMenuWrapper = document.querySelector('.mobile-menu-wrp');
