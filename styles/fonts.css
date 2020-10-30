@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url("../fonts/Lato-Regular.woff") format("woff"), 
+  url("../fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url("../fonts/Lato-Bold.woff") format("woff"), 
+  url("../fonts/Lato-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato-Light';
+  src: url("../fonts/Lato-Light.woff") format("woff"), 
+  url("../fonts/Lato-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Commissioner-Medium';
+  src: url("../fonts/Commissioner-Medium.woff") format("woff"), 
+  url("../fonts/Commissioner-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Commissioner-Regular';
+  src: url("../fonts/Commissioner-Regular.woff") format("woff"), 
+  url("../fonts/Commissioner-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Commissioner-Bold';
+  src: url("../fonts/Commissioner-Bold.woff") format("woff"), 
+  url("../fonts/Commissioner-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
