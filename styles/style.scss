@@ -99,6 +99,8 @@ $latoBold: "Lato-Bold", sans-serif;
   padding: 1.4286rem 0;
 }
 #lang-select {
+  background-color: transparent;
+  padding-bottom: 0.2143rem;
   outline: none;
   border: none;
   width: 7rem;
@@ -181,6 +183,7 @@ $latoBold: "Lato-Bold", sans-serif;
   padding: 0 var(--padding);
   height: 100%;
   min-height: 46.4286rem;
+  background-color: antiquewhite ;
   @include bgImg(cover);
   &_slide-1 {
     background-image: url(../img/sliders-img/hero-1slide.jpg);
@@ -514,7 +517,7 @@ $latoBold: "Lato-Bold", sans-serif;
   }
 }
 .img-through {
-  left: calc(0rem - var(--padding));
+  left: calc(0px - var(--padding));
   width: calc(100% + 2 * var(--padding));
   height: 12.8571rem;
   background-image: url(../img/pen-through.png);
